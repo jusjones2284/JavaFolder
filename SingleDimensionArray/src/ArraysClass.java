@@ -14,7 +14,8 @@ public class ArraysClass {
         for(int i = 0; i < numbers.length; i++)
             System.out.println(numbers[i]);
 //
-//        Arrays.sort(numbers);
+        Arrays.sort(numbers);
+
 
 //        System.out.println(numbers[0]);
 
