@@ -14,7 +14,6 @@ public class Weather {
             int hour = input.nextInt();
             double temperature = input.nextDouble();
             double humidity = input.nextDouble();
-            data
 
         }
 
