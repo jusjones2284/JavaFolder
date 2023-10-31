@@ -111,12 +111,69 @@ public class Main {
 //        System.out.println("A,B;C".replaceAll(",;", "#") + " ");
 //        System.out.println("A, B, C".replaceAll("[,;]", "#"));
 
-        char [] chars = "Java".toCharArray();
-        System.out.println(chars[1]);
+//        char [] chars = "Java".toCharArray();
+//        System.out.println(chars[1]);
+//
+//        char [] dst = {'J', 'A', 'V', 'A', '1', '1', '3', '0', '1'};
+//        "CS3720".getChars(2,6,dst, 4);
+//
+//        String str = new String(new char[]('J', 'a', 'v', 'a'));
+//        String strs =  String.valueOf(new char[]('J', 'a', 'v'));
 
-        char [] dst = {'J', 'A', 'V', 'A', '1', '1', '3', '0', '1'};
-        "CS3720".getChars(2,6,dst, 4);
+//        String quizz = " abc ";
+//        System.out.println(quizz.trim());
+//        String numbers = "48.484839";
+//
+//        Double.parseDouble(numbers);
+//        Integer.parseInt(numbers);
+//
+//        String.valueOf(5.55);
+//
+//        String.valueOf(new char[]{'a', 'b', 'c'});
+//
+//        StringBuilder stringBuilder = new StringBuilder();
+//        stringBuilder.append("Welcome");
+//        stringBuilder.append(' ');
+//        stringBuilder.append("to");
+//        stringBuilder.append(' ');
+//        stringBuilder.append("Java");
+//
+//        StringBuilder strinBulders = new StringBuilder();
+//        stringBuilder.insert(11, "HTML and");
+//
+//        stringBuilder.delete(8, 11);
+//        stringBuilder.deleteCharAt(8);
+//        stringBuilder.reverse();
+//        stringBuilder.replace(11,12, "HTML");
+//        stringBuilder.setCharAt(0, 'w');
+//
+//        StringBuilder stringBuilder1 = stringBuilder.reverse();
+//
+//        String s = "hello world, where are you";
+//        StringBuilder sb = new StringBuilder(s);
+//        sb.reverse();
+//        System.out.println(sb);
+//        sb.delete(4,11);
+//        s = sb.toString();
 
+
+//        String s = "Java";
+//        StringBuilder builder = new StringBuilder();
+//        change(builder);
+//        System.out.println(builder);
+//
+//        private static void change(StringBuilder builder){
+//            builder.append(" and HTML ");
+
+        StringBuilder s1 = new StringBuilder("Java");
+        s1.charAt(2);
+        s1.length();
+        
+
+
+
+
+        }
 
 
 
@@ -129,4 +186,3 @@ public class Main {
 
 
     }
-}
