@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 
 public class TestArrayList {
     public static void main(String[] args) {
@@ -42,6 +43,23 @@ public class TestArrayList {
 //            for(list.remove("red"))
 //                i--;
 //        }
+
+        ArrayList<Date> list5 = new ArrayList<>();
+        Date today = new Date();
+        list5.add(today);
+        list5.add(today);
+        System.out.println((list5.get(0) == list5.get(1)) + " " + (list5.get(0).equals(list5.get(1))));
+
+        ArrayList<String> list10 = new ArrayList<>();
+        String s1 = new String("Java");
+        String s2 = new String("Java");
+        list10.add(s1);
+        list10.add(s2);
+
+        System.out.println((list10.get(0) == list10.get(1)) + " " +
+                        (list10.get(0).equals(list10.get(1)))
+                );
+
 
 
 
