@@ -15,7 +15,7 @@ public class TestTreeSet {
 
         TreeSet<String> treeSet = new TreeSet<>();
 
-        HashSet<String> set1 = set.clone(); 
+        HashSet<String> set1 = set.clone();
 
 
         System.out.println("first()");
